@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="python/img">
+    <title>Lista de Tarefas</title>
+</head>
+
+<body>
+    <h1>Lista de Tarefas</h1>
+
+    <header>
+        <div id="texto">
+            <input id="input" type="text" placeholder="Digite a Tarefa">  
+        </div>
+        <div id="botao">
+            <button id="botaoAdicionar"  onclick="adicionando()"> Adicionar </button>
+        </div>
+    </header>
+    <main id="caixaTarefas">
+
+        <div id="caixa">
+            <div id="icone"> <img src="img/circle.png"> </div>
+            <div id="tarefa"> Olar essa tarefa </div>
+            <div id="data"> 20/04/2024 </div>
+            <div id="marcar"> <img src="img/trash-can.png"> </div>
+        </div>
+
+        <div id="caixaClique">
+            <div id="icone"> <img src="img/checked.png"> </div>
+            <div id="tarefa"> Olar essa tarefa </div>
+            <div id="data"> 20/04/2024 </div>
+            <div id="marcar"> <img src="img/trash-can.png"> </div>
+        </div>
+
+    </main>
+    <script src="js/controle.js"></script>
+</body>
+</html>

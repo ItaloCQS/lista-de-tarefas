@@ -1,0 +1,129 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body {
+    background-color: rgb(225, 222, 222);
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#texto {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#input {
+    width: 600px;
+    height: 40px;
+    text-align: center;
+    border-radius: 30px;
+    border: 3px solid black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#botao {
+    text-align: center;
+}
+
+#botaoAdicionar {
+    background-color: rgb(220, 220, 220);
+    font-weight: bolder;
+    width: 200px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+#botaoAdicionar:hover {
+    transition: 1s;
+    transform: scale(1.01);
+}
+
+#caixa {
+    display: flex;
+    border: 2px solid black;
+    width: 850px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0px 0px 5px rgb(161, 161, 161);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
+#icone {
+    /* border: 2px solid yellow; */
+    flex: 10%;
+    align-self: center;
+    height: 40px; 
+}
+
+#icone img {
+    max-width: 100%; 
+    max-height: 100%; 
+}
+
+#tarefa {
+    /* border: 2px solid green; */
+    text-align: left;
+    font-size: 25px;
+    font-weight: bolder;
+    flex: 80%;
+    margin: auto;
+}
+
+#data {
+    /* border: 2px solid pink; */
+    flex: 10%;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: auto;
+    margin-right: 5px;
+}
+
+#marcar {
+    /* border: 2px solid blue; */
+    display: flex;
+    flex: 5%;
+    align-self: center;
+    height: 40px; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+#marcar img {
+    max-width: 70%; 
+    max-height: 70%; 
+}
+
+
+#caixaClique {
+    display: flex;
+    border: 2px solid black;
+    width: 850px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0px 0px 5px rgb(161, 161, 161);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(205, 250, 205);
+}
+
+#caixaClique #tarefa {
+    color: gray;
+}
+#caixaClique #data {
+    color: gray;
+}
