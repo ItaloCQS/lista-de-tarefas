@@ -92,7 +92,7 @@ h1 {
     margin-right: 5px;
 }
 
-#marcar {
+#excluir {
     /* border: 2px solid blue; */
     display: flex;
     flex: 5%;
@@ -102,28 +102,30 @@ h1 {
     align-items: center; 
 }
 
-#marcar img {
+#excluir img {
+    width: 40px;
     max-width: 70%; 
-    max-height: 70%; 
+    max-height: 80%; 
 }
 
-
-#caixaClique {
-    display: flex;
-    border: 2px solid black;
-    width: 850px;
-    height: 50px;
-    text-align: center;
-    margin: auto;
-    box-shadow: 0px 0px 5px rgb(161, 161, 161);
-    border-radius: 5px;
-    margin-bottom: 5px;
-    background-color: rgb(205, 250, 205);
+#excluir {
+    width: 39px;
+    height: 48px;
+    border: 0px;
+    background-color: rgb(225, 222, 222);
 }
 
-#caixaClique #tarefa {
-    color: gray;
+#excluir img:hover{
+    transition: 1s;
+    transform: scale(1.2);
 }
-#caixaClique #data {
-    color: gray;
-}
+
+.Clique {
+    background-color: #d4edda;  
+    text-decoration: line-through;
+    opacity: 0.8;
+  }
+
+  .Clique #excluir{
+    background-color: #d4edda;
+  }
